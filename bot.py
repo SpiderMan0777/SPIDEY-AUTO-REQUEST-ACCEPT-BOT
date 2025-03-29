@@ -53,7 +53,8 @@ welcome_image = "https://envs.sh/v3t.jpg"
 
 # Initialize the bot
 app = Client("approver_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
-
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("SpideyBot")
 
 WELCOME_MESSAGE = "**🔥 Welcome {mention} to {chat_title}! 🔥**\n\n🚀 Enjoy your stay!"
 
