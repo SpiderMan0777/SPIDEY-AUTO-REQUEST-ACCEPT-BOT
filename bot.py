@@ -36,13 +36,12 @@ from configs import Spidey, temp
 
 
 # Configuration do not remove otherwise bot will be crashed
-API_ID = ""
-API_HASH = ""
+API_ID = "28519661"
+API_HASH = "d47c74c8a596fd3048955b322304109d"
 BOT_TOKEN = ""
 CHANNEL_IDS = [-1001959922658, -1002433552221, -1002470391435]
 LOG_CHANNEL = -1002294764885
 ADMINS = [5518489725]
-MONGO_URI = ""
 
 
 # Image URLs
