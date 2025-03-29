@@ -754,10 +754,12 @@ async def help_command(client, message):
         
         
 if __name__ == "__main__":
-    logger.info(script.LOGO_MSG)
+    logger.info(LOGO_MSG)
+    logger.info("SpideyCinemax Bot is running...")
     from threading import Thread
     Thread(target=lambda: app.run(host="0.0.0.0", port=8080)).start()
     bot.run()
+
 
 
 # Don't Remove Credit @spideyofficial777
